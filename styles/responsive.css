@@ -1,0 +1,166 @@
+/* ======================header style starts============= */
+@media screen and (max-width:576px) {
+    html {
+        font-size: 12px;
+    }
+
+    header nav,
+    header nav ul,
+    .goat,
+    .online-games .video-gallery,
+    .instant-play-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px
+    }
+
+    header nav ul li {
+        margin-bottom: -20px;
+    }
+
+
+    .goat {
+        padding-bottom: 0px;
+        gap: 30px;
+        flex-direction: column-reverse;
+
+    }
+
+
+
+    .goat-btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .goat-img-container img {
+        width: 100%;
+    }
+
+    .online-games {
+        padding: 30px;
+    }
+
+    .online-games .video-gallery {
+        margin-top: 20px;
+    }
+
+    .online-games .video-gallery img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .instant-play-section {
+        gap: 20px;
+
+    }
+
+    .instant-play-content {
+        margin-top: 20px;
+    }
+
+
+    .instant-play-img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    .instant-play-img-container .instant-play-img {
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .instant-play-img-container .clip-img {
+        width: 100px;
+        bottom: 50px;
+        right: 120px;
+
+    }
+
+
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+
+    header nav,
+    .goat,
+    .instant-play-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .goat-container {
+        margin-right: 0;
+    }
+
+    .goat-img-container img {
+        width: 100%;
+    }
+
+    .online-games {
+        padding: 70px;
+    }
+
+    .online-games .video-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
+    .vdo-thumbnail {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .vdo-thumbnail p {
+        font-size: .8rem;
+
+    }
+
+    .instant-play-content {
+        margin-top: 20px;
+    }
+
+    .instant-play-img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .instant-play-img-container .instant-play-img {
+        width: 60%;
+        padding: 0 100px;
+
+
+
+
+    }
+
+    .instant-play-img-container .clip-img {
+        width: 200px;
+        bottom: 100px;
+        right: 200px;
+
+
+    }
+}
