@@ -6,7 +6,7 @@
 
     header nav,
     header nav ul,
-    .goat,
+    .banner,
     .online-games .video-gallery,
     .instant-play-section {
         flex-direction: column;
@@ -20,7 +20,7 @@
     }
 
 
-    .goat {
+    .banner {
         padding-bottom: 0px;
         gap: 30px;
         flex-direction: column-reverse;
@@ -29,7 +29,7 @@
 
 
 
-    .goat-btn-container {
+    .banner-btn-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,7 +37,7 @@
 
 
 
-    .goat-img-container img {
+    .banner-img-container img {
         width: 100%;
     }
 
@@ -151,7 +151,7 @@
 
 
     header nav,
-    .goat,
+    .banner,
     .instant-play-section {
         flex-direction: column;
         justify-content: center;
@@ -160,11 +160,11 @@
         padding: 20px;
     }
 
-    .goat-container {
+    .banner-container {
         margin-right: 0;
     }
 
-    .goat-img-container img {
+    .banner-img-container img {
         width: 100%;
     }
 
