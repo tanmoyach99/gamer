@@ -67,6 +67,12 @@ header nav h3 {
     text-align: center;
 }
 
+.text-white {
+    color: #fff;
+    font-size: 1.25rem;
+    ;
+}
+
 header nav h3 img {
     width: 100%;
 
@@ -209,6 +215,49 @@ header nav ul li a img {
     margin-top: 50px;
 }
 
+.vdo-thumbnail {
+    position: relative;
+    display: inline-block;
+
+}
+
+.watch-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+}
+
+
+
+.watch-icon p {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+
+.vdo-thumbnail:hover img {
+    opacity: 0.7;
+
+}
+
+.vdo-thumbnail:hover .watch-icon {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vdo-thumbnail:hover .watch-icon img {
+    width: 50px;
+    text-align: center
+}
+
+
+
 .online-games .video-gallery img {
     width: 250px;
     height: 100%;
@@ -255,7 +304,7 @@ header nav ul li a img {
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
-    width: 1000px;
+    /* width: 1000px; */
     align-items: center;
     justify-content: center
 }
@@ -269,7 +318,7 @@ header nav ul li a img {
     background: #fff;
     margin-right: 10px;
     border-radius: 50px;
-    width: calc(20% - 35px);
+    width: calc(20% - 2.2rem);
     margin-bottom: 10px;
     border: 1px solid transparent;
 }
@@ -285,5 +334,55 @@ header nav ul li a img {
 }
 
 .game-list .games p {
-    font-size: 12px;
+    font-size: .75rem;
+}
+
+/* footer */
+footer {
+    padding: 100px 250px;
+    background: #0B0223;
+
+}
+
+footer .text-footer {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+footer .brand-color {
+    margin-right: 0px
+}
+
+.category,
+.social-icons,
+.settings,
+.copyright {
+    padding: 20px;
+}
+
+.category ul,
+.settings ul {
+    display: flex;
+    justify-content: space-around
+}
+
+.social-icons ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+
+}
+
+.social-icons ul {
+    display: flex
+}
+
+.social-icons img {
+    width: 40px;
 }
