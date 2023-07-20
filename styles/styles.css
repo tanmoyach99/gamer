@@ -28,10 +28,8 @@ body {
     font-weight: 900;
     font-size: 3rem;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FF42A5;
+
 }
 
 .text-primary {
@@ -229,6 +227,15 @@ header nav ul li a img {
 
 }
 
+.vdo-thumbnail .vdo-img {
+    width: 250px;
+    height: 100%;
+    border: 2px solid transparent;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+
 .watch-icon {
     position: absolute;
     top: 50%;
@@ -240,15 +247,11 @@ header nav ul li a img {
 
 
 
-.watch-icon p {
-    color: #fff;
-    font-size: 1.25rem;
-}
 
 
-.vdo-thumbnail:hover img {
+.vdo-thumbnail:hover .vdo-img {
     opacity: 0.7;
-
+    border: 2px solid #FF42A5
 }
 
 .vdo-thumbnail:hover .watch-icon {
@@ -264,14 +267,12 @@ header nav ul li a img {
     text-align: center
 }
 
-
-
-.online-games .video-gallery img {
-    width: 250px;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px
+.vdo-thumbnail:hover .watch-icon p {
+    color: #F948B2
 }
+
+
+
 
 /* instant play section */
 .instant-play-section {
